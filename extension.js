@@ -1,6 +1,7 @@
 const vscode = require("vscode");
 
 function activate(context) {
+	console.log("Extension activated!");
   let disposable = vscode.commands.registerCommand(
     "extension.openChatGPT",
     function () {
